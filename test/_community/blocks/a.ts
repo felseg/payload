@@ -1,14 +1,15 @@
-import { Block } from 'payload';
-import { A } from './a.js';
+import type { Block } from 'payload'
 
-export const B: Block = {
-  slug: 'b',
+import { B } from './b.js'
+
+export const A: Block = {
+  slug: 'a',
   fields: [
     {
       type: 'blocks',
       name: 'blocks',
-      blocks: [A],
+      blocks: [B],
       required: true,
     },
   ],
-};
+}

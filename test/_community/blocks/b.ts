@@ -1,7 +1,7 @@
-import { Block } from 'payload';
+import type { Block } from 'payload'
 
 export const B: Block = {
-  slug: 'b',
+  slug: 'B',
   fields: [
     {
       type: 'text',
@@ -10,4 +10,4 @@ export const B: Block = {
       label: 'Text',
     },
   ],
-};
+}
